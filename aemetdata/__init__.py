@@ -1,6 +1,16 @@
-"""Cliente Python para AEMET OpenData."""
+"""Paquete principal de aemetdata."""
 
-from .client import AemetClient, AemetError, fetch
+from . import avisos
+from . import climatologia
+from . import imagenes
+from . import observaciones
+from . import utils
 
-__all__ = ["AemetClient", "AemetError", "fetch"]
-__version__ = "0.1.0"
+__all__ = [
+	"avisos",
+	"climatologia",
+	"imagenes",
+	"observaciones",
+	"utils",
+]
+
