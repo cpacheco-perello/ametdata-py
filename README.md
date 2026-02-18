@@ -1,9 +1,8 @@
 
 ![PyPI](https://img.shields.io/pypi/v/aemetdata)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/aemetdata)
+
 ![PyPI - Status](https://img.shields.io/pypi/status/aemetdata)
-![GitHub issues](https://img.shields.io/github/issues/cpacheco-perello/aemetdata-py)
-![GitHub last commit](https://img.shields.io/github/last-commit/cpacheco-perello/aemetdata-py)
+
 
 # aemetdata
 
