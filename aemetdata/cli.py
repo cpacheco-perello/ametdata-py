@@ -1,27 +1,9 @@
 """Interfaz CLI para aemetdata."""
 
 
-def parse_params(params: list[str]) -> dict[str, str]:
-    """Parsea parámetros en formato clave=valor.
-    
-    Args:
-        params: Lista de strings en formato "clave=valor"
-        
-    Returns:
-        Diccionario con los parámetros parseados
-    """
-    result = {}
-    for param in params:
-        if "=" in param:
-            key, value = param.split("=", 1)
-            result[key] = value
-    return result
-
-
-
-
 import argparse
 import os
+
 import sys
 from aemetdata import AemetClient
 
@@ -82,11 +64,10 @@ def print_aliases():
         help="API Key de AEMET OpenData (opcional, si no se indica se usa la variable de entorno AEMET_API_KEY)"
     )
 
+
     args = parser.parse_args()
 
-    if not args.endpoint and not args.alias:
-        parser.error("Debes proporcionar --endpoint o --alias (usa --list para ver opciones)")
-
+    # --- Corregir indentación del manejo de error de parámetros ---
     if args.alias:
         if args.alias not in ENDPOINT_ALIASES:
             print(f"Alias desconocido: {args.alias}")
