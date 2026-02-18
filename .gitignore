@@ -10,3 +10,24 @@ dist/
 .venv/
 .vscode/
 .env
+
+# Archivos de notebook
+*.ipynb
+
+# Logs
+*.log
+
+# Archivos de configuración temporales
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpeta de caché de tests
+tests/__pycache__/
+# Carpeta de caché en submódulos
+aemetdata/**/__pycache__/
