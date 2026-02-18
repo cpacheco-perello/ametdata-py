@@ -1,8 +1,8 @@
 
 # aemetdata
 
-![PyPI](https://img.shields.io/pypi/v/python-aemet)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/python-aemet)
+![PyPI](https://img.shields.io/pypi/v/aemetdata)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/aemetdata)
 
 **Inspiración y recursos relacionados:**
 
