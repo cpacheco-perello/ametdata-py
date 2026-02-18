@@ -11,6 +11,11 @@ dist/
 .vscode/
 .env
 
+# Archivos de configuración y documentación (opcional, si no quieres versionar cambios locales)
+pyproject.toml
+MANIFEST.in
+README.md
+
 # Instrucciones y archivos de ayuda
 build_publish_pypi.txt
 
