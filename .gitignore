@@ -11,6 +11,9 @@ dist/
 .vscode/
 .env
 
+# Instrucciones y archivos de ayuda
+build_publish_pypi.txt
+
 # Archivos de notebook
 *.ipynb
 

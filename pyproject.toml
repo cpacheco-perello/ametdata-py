@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "aemetdata"
 version = "0.1.0"
-description = "Cliente Python para descargar datos de AEMET OpenData"
+description = "Paquete Python para descargar datos de AEMET OpenData"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
@@ -14,7 +14,8 @@ authors = [
 ]
 dependencies = [
   "httpx>=0.24",
-  "requests>=2.31"
+  "requests>=2.31",
+  "python-dateutil>=2.8"
 ]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -32,9 +33,9 @@ classifiers = [
 keywords = ["aemet", "opendata", "meteorologia"]
 
 [project.urls]
-Homepage = "https://github.com/tu-usuario/aemetdata"
-Repository = "https://github.com/tu-usuario/aemetdata"
-Issues = "https://github.com/tu-usuario/aemetdata/issues"
+Homepage = "https://github.com/cpacheco-perello"
+Repository = "https://github.com/cpacheco-perello/ametdata-py"
+Issues = "https://github.com/cpacheco-perello/ametdata-py/issueses"
 
 [project.optional-dependencies]
 test = [

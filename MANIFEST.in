@@ -1,0 +1,24 @@
+# Excluir archivos y carpetas innecesarias del paquete distribuido en PyPI
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+.pytest_cache/
+.coverage
+.venv/
+.vscode/
+.env
+tests/
+*.ipynb
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
