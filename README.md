@@ -1,8 +1,7 @@
 
 ![PyPI](https://img.shields.io/pypi/v/aemetdata)
-
 ![PyPI - Status](https://img.shields.io/pypi/status/aemetdata)
-
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fKJFg3Qwd2f1cDY9GxZEYSvN0I-cbILK?usp=sharing)
 
 # aemetdata
 
@@ -21,17 +20,9 @@ pip install aemetdata
 Necesitas una API Key de AEMET OpenData. Puedes obtenerla en:
 [Obtener clave api AEMET](https://opendata.aemet.es/centrodedescargas/altaUsuario?)
 
-Puedes pasarla como argumento o definir la variable de entorno:
 
-```bash
-export AEMET_API_KEY="tu_api_key"
-```
 
-En Windows (PowerShell):
-
-```powershell
-setx AEMET_API_KEY "tu_api_key"
-```
+Puedes probar todas las funciones del paquete directamente en Google Colab usando este cuaderno de ejemplo.
 
 ## Cliente y funciones principales
 
