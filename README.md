@@ -22,7 +22,7 @@ Necesitas una API Key de AEMET OpenData. Puedes obtenerla en:
 
 
 
-Puedes probar todas las funciones del paquete directamente en Google Colab usando este cuaderno de ejemplo.
+Puedes probar todas las funciones del paquete directamente en Google Colab usando el cuaderno de ejemplo.
 
 ## Cliente y funciones principales
 
